@@ -10,4 +10,3 @@ Route::get('/', function () {
 Route::get('mhs');
 Route::get('dosen', [Dosen::class, 'biodata']);
 Route::get('akademik', [AkademikController::class, 'index']);
-Route::post('akademik', [AkademikController::class, 'akademikStore']);

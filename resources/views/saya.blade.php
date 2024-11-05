@@ -13,7 +13,7 @@
         <div>
             <h1>Pemrograman Tingkat lanjut</h1>
             <h2>Daftar Tugas</h2>
-            <li>Tugas 1</li>
+            <li><a href="{{ url('akademik') }}"> Tugas 1</a></li>
             <button id="button" class="button">Rahmat Lutvi Furkon</button>
           </div>
     </div>
