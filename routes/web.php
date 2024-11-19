@@ -5,7 +5,7 @@ use App\Http\Controllers\Dosen;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('saya');
+    return view('login-view');
 });
 Route::get('mhs');
 Route::get('dosen', [Dosen::class, 'biodata']);
