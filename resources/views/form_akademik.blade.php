@@ -27,6 +27,7 @@
                             <th scope="col">NIM</th>
                             <th scope="col">NAMA</th>
                             <th scope="col">KELAS</th>
+                            <th scope="col">MATA KULIAH</th>
                             <th scope="col">Action</th>
                         </tr>
                     </thead>
@@ -100,6 +101,7 @@
                             <td>${valueOfElement.nim}</td>
                             <td>${valueOfElement.nama}</td>
                             <td>${valueOfElement.kelas}</td>
+                            <td>${valueOfElement.matakuliah}</td>
                             <td>
                                 <button class="btn btn-danger">Hapus</button></td>
                         </tr>`
